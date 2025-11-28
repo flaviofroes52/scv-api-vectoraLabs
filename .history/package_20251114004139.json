@@ -5,8 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node api/app.js"
-
+    "start": "node --import=tsx --watch api/app.js"
   },
   "keywords": [],
   "author": "flavio e kauê",
